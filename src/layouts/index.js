@@ -2,8 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Layout from 'material-ui-layout'
+import CssBaseline from '@material-ui/core/CssBaseline'
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider'
 
-import './index.css'
+import theme from '../config/theme'
 
 const LayoutComponent = ({ children, data }) => (
   <div>
@@ -13,8 +15,18 @@ const LayoutComponent = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[
+        {
+          href:
+            'https://fonts.googleapis.com/css?family=Anton|Bangers|Montserrat',
+          rel: 'stylesheet',
+        },
+      ]}
     />
-    <Layout>{children()}</Layout>
+    <CssBaseline />
+    <MuiThemeProvider theme={theme}>
+      <Layout>{children()}</Layout>
+    </MuiThemeProvider>
   </div>
 )
 

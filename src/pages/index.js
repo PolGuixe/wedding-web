@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid'
 import { Typography, Button } from '@material-ui/core'
 import { withStyles } from '@material-ui/core/styles'
 import Img from 'gatsby-image'
-import classNames from 'classnames'
+import Countdown from 'react-countdown-now'
 
 import Logo from '../components/LP-logo'
 
@@ -98,6 +98,11 @@ const IndexPage = ({ classes, data }) => (
         <Typography variant="body2">
           - Save the date, we're launching 🚀 a new adventure -
         </Typography>
+        <Typography variant="headline">
+        <Countdown date={new Date(2019,3,13,11)}>
+          We are married!
+        </Countdown>
+        </Typography>
       </div>
     </Grid>
     <Grid xs={12} sm={6} className={classes.text}>
@@ -130,7 +135,7 @@ const IndexPage = ({ classes, data }) => (
         </Button>
         <div className={classes.spacer} />
         <Typography variant="title" color="inherit" className={classes.hastag}>
-          #laura&pol
+          #laura+pol
         </Typography>
       </div>
     </Grid>

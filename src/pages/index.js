@@ -158,7 +158,12 @@ const IndexPage = ({ classes, data }) => (
         <div className={classes.spacer} />
         {moreInfo.map(info => <ExtraInfoDialog key={info.title} {...info} />)}
         <div className={classes.spacer} />
-        <Button variant="outlined" color="inherit" className={classes.button}>
+        <Button
+          variant="outlined"
+          color="inherit"
+          className={classes.button}
+          href="https://goo.gl/forms/x5CCVpqY8byJHoDP2"
+        >
           ¡Voy! Vaig! Coming!
         </Button>
         <div className={classes.spacer} />

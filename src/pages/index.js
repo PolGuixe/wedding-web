@@ -147,9 +147,11 @@ const IndexPage = ({ classes, data }) => (
           ¿Dónde? On? Where?
         </Typography>
         <div className={classes.divider} />
-        <Typography variant="title" color="inherit">
-          Ligüerre Resort
-        </Typography>
+        <Button color="inherit" href="https://goo.gl/maps/eVCUn6dH9X62">
+          <Typography variant="title" color="inherit">
+            Ligüerre Resort
+          </Typography>
+        </Button>
         <Typography variant="title" color="inherit">
           Huesca - Spain
         </Typography>

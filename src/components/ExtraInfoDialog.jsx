@@ -36,7 +36,7 @@ class ResponsiveDialog extends React.Component {
         >
           <DialogTitle id="responsive-dialog-title">{title}</DialogTitle>
           <DialogContent>
-            {content.map(sentence => <Typography variant="body1" paragraph>{sentence}</Typography>)}
+            {content.map((sentence, index) => <Typography key={title+index} variant="body1" paragraph>{sentence}</Typography>)}
           </DialogContent>
           <DialogActions>
             <Button

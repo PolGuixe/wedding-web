@@ -132,7 +132,7 @@ const IndexPage = ({ classes, data }) => (
         </Typography>
       </div>
     </Grid>
-    <Grid xs={12} sm={6} className={classes.text}>
+    <Grid item xs={12} sm={6} className={classes.text}>
       <div className={classes.section}>
         <Logo className={classes.svgLogo} />
         <Typography variant="subheading" color="inherit">
@@ -156,7 +156,7 @@ const IndexPage = ({ classes, data }) => (
           Huesca - Spain
         </Typography>
         <div className={classes.spacer} />
-        {moreInfo.map(info => <ExtraInfoDialog {...info} />)}
+        {moreInfo.map(info => <ExtraInfoDialog key={info.title} {...info} />)}
         <div className={classes.spacer} />
         <Button variant="outlined" color="inherit" className={classes.button}>
           ¡Voy! Vaig! Coming!

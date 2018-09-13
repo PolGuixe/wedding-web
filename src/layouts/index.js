@@ -15,13 +15,6 @@ const LayoutComponent = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-      link={[
-        {
-          href:
-            'https://fonts.googleapis.com/css?family=Anton|Bangers|Montserrat',
-          rel: 'stylesheet',
-        },
-      ]}
     />
     <CssBaseline />
     <MuiThemeProvider theme={theme}>

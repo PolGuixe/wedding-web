@@ -3,6 +3,7 @@ module.exports = {
     title: 'Laura + Pol',
   },
   plugins: [
+    `gatsby-plugin-layout`,
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-web-font-loader',

@@ -7,32 +7,35 @@ import { StaticQuery, graphql } from 'gatsby'
 import theme from '../config/theme'
 
 const LayoutComponent = ({ children }) => (
-    <StaticQuery
-        query={graphql`
+  <StaticQuery
+    query={graphql`
       query SiteTitleQuery {
         site {
           siteMetadata {
             title
+            description
+            keywords
           }
         }
       }
     `}
-        render={data => (
-            <div>
-                <Helmet
-                    title={data.site.siteMetadata.title}
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                />
-                <CssBaseline />
-                <MuiThemeProvider theme={theme}>
-                    {children}
-                </MuiThemeProvider>
-            </div>
-        )}
-    />
+    render={data => (
+      <div>
+        <Helmet
+          title={data.site.siteMetadata.title}
+          meta={[
+            {
+              name: 'description',
+              content: data.site.siteMetadata.description,
+            },
+            { name: 'keywords', content: data.site.siteMetadata.keywords },
+          ]}
+        />
+        <CssBaseline />
+        <MuiThemeProvider theme={theme}>{children}</MuiThemeProvider>
+      </div>
+    )}
+  />
 )
 
-export default LayoutComponent;
+export default LayoutComponent

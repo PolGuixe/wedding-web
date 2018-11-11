@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Laura-and-Pol",
+  "description": "Laura and Pol's wedding website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Pol Guixe <pol@origen.studio>",
   "dependencies": {
     "@material-ui/core": "^1.0.0",
     "classnames": "^2.2.6",
@@ -34,7 +34,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "surge public/ lauraandpol.com"
+    "deploy": "surge public/ lauraandpol.com",
+    "deploy-test": "surge public/ lauraandpol.surge.sh"
   },
   "devDependencies": {
     "prettier": "^1.15.1"

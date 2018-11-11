@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Laura + Pol',
+    description:
+      'We are throwing a party to celebrate our new adventure! We are getting married!',
+    keywords: 'party, wedding, invitation-only',
   },
   plugins: [
     `gatsby-plugin-layout`,
@@ -9,9 +12,9 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Montserrat', 'Anton']
-        }
-      }
+          families: ['Montserrat', 'Anton'],
+        },
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -25,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/images/icon.png",
+        logo: './src/images/icon.png',
         injectHTML: true,
         icons: {
           android: true,
@@ -36,9 +39,9 @@ module.exports = {
           firefox: true,
           twitter: false,
           yandex: false,
-          windows: false
-        }
-      }
+          windows: false,
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,

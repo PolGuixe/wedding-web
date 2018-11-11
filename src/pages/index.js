@@ -5,49 +5,10 @@ import { withStyles } from '@material-ui/core/styles'
 import Img from 'gatsby-image'
 import Countdown from 'react-countdown-now'
 import { graphql } from 'gatsby'
+import { navigate } from 'gatsby'
 
 import Logo from '../components/LP-logo'
-import ExtraInfoDialog from '../components/ExtraInfoDialog'
 import Layout from '../components/Layout'
-
-const moreInfo = [
-  {
-    buttonText: 'Más información',
-    title: 'Prepárate...',
-    content: [
-      'Pol quería una boda sencilla..., así que Laura decidió que organizaríamos un fiestón 🎉 en bonito pueblo en el Pirineo para todos vosotros ⛰️ ',
-      'Si no te quieres perder nada, te esperamos el viernes 12 a última hora de la tarde 🍔🍷',
-      'La ceremonia será el sábado 13 al mediodía 👰🏻🤵🏻',
-      'Después de bailar toda la noche, el domingo 14 repondremos fuerzas durante el “brunch” 🍳🥐 antes de volver a casa ',
-      'En las próximas semanas daremos más detalles sobre la agenda y la logística. Si necesitas reservar desplazamientos urgentemente, ¡no dudes en contactarnos!✈️',
-    ],
-    actionText: '¡Mola!',
-  },
-  {
-    buttonText: 'Més informació',
-    title: 'Prepareu-vos...',
-    content: [
-      'En Pol volia una boda senzilla..., per tant la Laura va decidir que prepararíem una bona festa 🎉 en un bonic poble en el Pirineu per a tots vosaltres⛰️ ',
-      'Si no et vols perdre res, t’esperem divendres 12 al vespre 🍔🍷',
-      'La cerimònia serà dissabte 13 al migdia 👰🏻🤵🏻',
-      'Després de ballar tota la nit, el diumenge 14 agafarem forces durant el “brunch” 🍳🥐 avans de tornar a casa',
-      'Durant les setmanes vinents us donarem més informació de l’agenda i la logística. Si has de reservar el viatge urgentment, no dubtis en contactar-nos! ✈️',
-    ],
-    actionText: 'Guai!',
-  },
-  {
-    buttonText: 'More information',
-    title: 'Get ready...',
-    content: [
-      'Pol wanted a simple wedding..., so Laura decided to organize a big party 🎉 in a beautiful village in the Pyrenees for you all ⛰️ ',
-      'If you don’t want to miss anything, we hope to see you there Friday 12th in the evening  🍔🍷',
-      'The ceremony will take place on Saturday 13th at midday 👰🏻🤵🏻',
-      'After dancing all night, Sunday 14th in the morning we’ll enjoy brunch 🍳🥐 before heading back home',
-      'In the coming weeks we’ll share more details about the agenda and the logistics. If you need to make your travel arrangements urgently, don’t hesitate to contact us! ✈️',
-    ],
-    actionText: 'Cool!',
-  },
-]
 
 const styles = theme => ({
   container: {
@@ -164,9 +125,15 @@ const IndexPage = ({ classes, data }) => (
             Huesca - Spain
           </Typography>
           <div className={classes.spacer} />
-          {moreInfo.map(info => (
-            <ExtraInfoDialog key={info.title} {...info} />
-          ))}
+          <Button
+            onClick={() => {
+              navigate('/vamos-de-fiesta')
+            }}
+          >
+            Más información
+          </Button>
+          <Button>Més informació</Button>
+          <Button>More information</Button>
           <div className={classes.spacer} />
           <Button
             variant="outlined"

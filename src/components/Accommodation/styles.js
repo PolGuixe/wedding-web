@@ -10,20 +10,20 @@ export default theme => ({
     width: '100%',
     maxWidth: '600px',
   },
-  expansionDetailsText: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    padding: theme.spacing.unit,
-  },
-  agendaSection: {
-    backgroundColor: theme.palette.primary.main,
-    color: theme.palette.primary.contrastText,
+  accommodationSection: {
+    color: theme.palette.primary.main,
     paddingTop: theme.spacing.unit * 4,
     paddingBottom: theme.spacing.unit * 4,
   },
-  daySection: {
-    marginBottom: theme.spacing.unit,
-    marginTop: theme.spacing.unit,
+  paperWrapper: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  paper: {
+    width: 'fit-content',
+    padding: theme.spacing.unit,
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.primary.contrastText,
   },
 })

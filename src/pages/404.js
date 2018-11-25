@@ -3,7 +3,7 @@ import Layout from 'material-ui-layout'
 import withStyles from '@material-ui/core/styles/withStyles'
 import { Typography, Button } from '@material-ui/core'
 import Img from 'gatsby-image'
-import { graphql } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 
 import InfoSection from '../components/InfoSection'
 
@@ -51,7 +51,11 @@ class NotFound extends Component {
             Right now can find all the information at home
           </Typography>
           <div className={classes.imgWrapper}>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              variant="outlined"
+              className={classes.button}
+              onClick={() => navigate('/')}
+            >
               Go home!
             </Button>
           </div>

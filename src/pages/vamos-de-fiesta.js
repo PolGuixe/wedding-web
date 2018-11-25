@@ -4,11 +4,13 @@ import withStyles from '@material-ui/core/styles/withStyles'
 
 import Agenda from '../components/Agenda/agendaES'
 import Accommodation from '../components/Accommodation/accomodationES'
+import Travel from '../components/Travel/travelES'
 
 const styles = theme => ({
   moreInfoPageChildren:{
     display:'flex',
     flexDirection:'column',
+    width: '100%'
   }
 })
 
@@ -20,6 +22,7 @@ class VamosDeFiesta extends Component {
         <div className={classes.moreInfoPageChildren}>
         <Agenda/>
         <Accommodation />
+        <Travel />
         </div>
       </Layout>
     )

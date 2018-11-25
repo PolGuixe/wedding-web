@@ -12,7 +12,7 @@ const accommodationES = ({ classes }) => (
   <StaticQuery
     query={graphql`
       query {
-        accommodationImage: file(relativePath: { eq: "agenda/liguerre.jpg" }) {
+        accommodationImage: file(relativePath: { eq: "accommodation/accommodation.jpg" }) {
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.

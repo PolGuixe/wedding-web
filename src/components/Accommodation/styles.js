@@ -12,8 +12,6 @@ export default theme => ({
   },
   accommodationSection: {
     color: theme.palette.primary.main,
-    paddingTop: theme.spacing.unit * 4,
-    paddingBottom: theme.spacing.unit * 4,
   },
   paperWrapper: {
     width: '100%',

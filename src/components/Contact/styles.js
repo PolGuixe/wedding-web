@@ -2,8 +2,6 @@ export default theme => ({
   rsvpSection: {
     backgroundColor: theme.palette.primary.main,
     color: theme.palette.primary.contrastText,
-    paddingTop: theme.spacing.unit * 4,
-    paddingBottom: theme.spacing.unit * 4,
   },
   introImgWrapper: {
     display: 'flex',

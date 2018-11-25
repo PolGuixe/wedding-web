@@ -1,7 +1,5 @@
 export default theme => ({
   rsvpSection: {
-    paddingTop: theme.spacing.unit * 4,
-    paddingBottom: theme.spacing.unit * 4,
   },
   introImgWrapper: {
     display: 'flex',

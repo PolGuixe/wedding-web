@@ -1,6 +1,5 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
-import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
@@ -8,7 +7,6 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import withStyles from '@material-ui/core/styles/withStyles'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
 import InfoSection from '../InfoSection'
 import styles from './styles'
@@ -38,6 +36,7 @@ const travelES = ({ classes }) => (
           <Paper elevation={4} square>
             <div className={classes.map}>
               <iframe
+                title="map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11807.508750724744!2d0.1967616!3d42.2811449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c248def99dbf3c1!2sLig%C3%BCerre+Resort!5e0!3m2!1sen!2ses!4v1543145346934"
                 width="100%"
                 height="100%"

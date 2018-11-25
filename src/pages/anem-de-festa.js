@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import Layout from 'material-ui-layout'
 import withStyles from '@material-ui/core/styles/withStyles'
 
-import Agenda from '../components/Agenda/agendaES'
-import Accommodation from '../components/Accommodation/accomodationES'
-import Travel from '../components/Travel/travelES'
-import Packing from '../components/Packing/packingES'
-import Gift from '../components/Gift/giftES'
-import RSVP from '../components/RSVP/rsvpES'
-import Contact from '../components/Contact/contactES'
+import Agenda from '../components/Agenda/agendaCAT'
+import Accommodation from '../components/Accommodation/accomodationCAT'
+import Travel from '../components/Travel/travelCAT'
+import Packing from '../components/Packing/packingCAT'
+import Gift from '../components/Gift/giftCAT'
+import RSVP from '../components/RSVP/rsvpCAT'
+import Contact from '../components/Contact/contactCAT'
 
 const styles = theme => ({
   moreInfoPageChildren: {

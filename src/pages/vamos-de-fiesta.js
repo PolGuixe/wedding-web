@@ -7,6 +7,8 @@ import Accommodation from '../components/Accommodation/accomodationES'
 import Travel from '../components/Travel/travelES'
 import Packing from '../components/Packing/packingES'
 import Gift from '../components/Gift/giftES'
+import RSVP from '../components/RSVP/rsvpES'
+import Contact from '../components/Contact/contactES'
 
 const styles = theme => ({
   moreInfoPageChildren: {
@@ -27,6 +29,8 @@ class VamosDeFiesta extends Component {
           <Travel />
           <Packing />
           <Gift />
+          <RSVP />
+          <Contact />
         </div>
       </Layout>
     )

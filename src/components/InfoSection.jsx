@@ -6,6 +6,8 @@ import ResponsiveWidth from './ResponsiveWidth'
 const styles = theme => ({
   root: {
     padding: theme.spacing.unit,
+    paddingTop: theme.spacing.unit * 8,
+    paddingBottom: theme.spacing.unit * 8,
     height: 'fit-content',
     width: '100%',
   },

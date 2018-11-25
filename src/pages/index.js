@@ -126,23 +126,37 @@ const IndexPage = ({ classes, data }) => (
           </Typography>
           <div className={classes.spacer} />
           <Button
+            variant="outlined"
+            color="inherit"
+            className={classes.button}
             onClick={() => {
               navigate('/vamos-de-fiesta')
             }}
           >
             Más información
           </Button>
-          <Button>Més informació</Button>
-          <Button>More information</Button>
           <div className={classes.spacer} />
           <Button
             variant="outlined"
             color="inherit"
             className={classes.button}
-            href="https://goo.gl/forms/x5CCVpqY8byJHoDP2"
+            onClick={() => {
+              navigate('/anem-de-festa')
+            }}
           >
-            ¡Voy! Vaig! Coming!
+            Més informació
           </Button>
+          <div className={classes.spacer} />
+          <Button
+            variant="outlined"
+            color="inherit"
+            className={classes.button}
+            onClick={() => {
+              navigate('/lets-party')
+            }}
+          >
+            More information
+          </Button>  
           <div className={classes.spacer} />
           <Typography variant="display1" color="inherit">
             #laura

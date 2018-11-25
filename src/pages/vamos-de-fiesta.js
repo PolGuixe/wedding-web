@@ -5,6 +5,7 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import Agenda from '../components/Agenda/agendaES'
 import Accommodation from '../components/Accommodation/accomodationES'
 import Travel from '../components/Travel/travelES'
+import Packing from '../components/Packing/packingES'
 
 const styles = theme => ({
   moreInfoPageChildren:{
@@ -23,6 +24,7 @@ class VamosDeFiesta extends Component {
         <Agenda/>
         <Accommodation />
         <Travel />
+          <Packing />
         </div>
       </Layout>
     )

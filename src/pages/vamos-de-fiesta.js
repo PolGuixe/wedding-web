@@ -6,25 +6,27 @@ import Agenda from '../components/Agenda/agendaES'
 import Accommodation from '../components/Accommodation/accomodationES'
 import Travel from '../components/Travel/travelES'
 import Packing from '../components/Packing/packingES'
+import Gift from '../components/Gift/giftES'
 
 const styles = theme => ({
-  moreInfoPageChildren:{
-    display:'flex',
-    flexDirection:'column',
-    width: '100%'
-  }
+  moreInfoPageChildren: {
+    display: 'flex',
+    flexDirection: 'column',
+    width: '100%',
+  },
 })
 
 class VamosDeFiesta extends Component {
   render() {
-    const {classes} = this.props;
+    const { classes } = this.props
     return (
       <Layout>
         <div className={classes.moreInfoPageChildren}>
-        <Agenda/>
-        <Accommodation />
-        <Travel />
+          <Agenda />
+          <Accommodation />
+          <Travel />
           <Packing />
+          <Gift />
         </div>
       </Layout>
     )

@@ -14,4 +14,15 @@ export default theme => ({
     width: '100%',
     maxWidth: '600px',
   },
+  paperWrapper: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
+  },
+  paper: {
+    width: 'fit-content',
+    padding: theme.spacing.unit,
+  },
 })

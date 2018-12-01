@@ -1,5 +1,6 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
+import Paper from '@material-ui/core/Paper'
 import withStyles from '@material-ui/core/styles/withStyles'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
@@ -34,14 +35,20 @@ const giftES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" color="inherit">
-          Comptar amb la teva presència el pròxim cap de setmana del 13 d'abril és el que ens fa més il·lusió.
+          Comptar amb la teva presència el pròxim cap de setmana del 13 d'abril
+          és el que ens fa més il·lusió.
         </Typography>
         <Typography variant="body2" color="inherit">
-          Però si vols ajudar-nos en aquesta nova etapa, disposem del següent compte bancari. Moltíssimes gràcies!
+          Però si vols ajudar-nos en aquesta nova etapa, disposem del següent
+          compte bancari. Moltíssimes gràcies!
         </Typography>
-        <Typography variant="body2" color="inherit">
-          ES09 2100 1568 6102 0039 8335
-        </Typography>
+        <div className={classes.paperWrapper}>
+          <Paper className={classes.paper}>
+            <Typography variant="body2">
+              ES09 2100 1568 6102 0039 8335
+            </Typography>
+          </Paper>
+        </div>
       </InfoSection>
     )}
   />

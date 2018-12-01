@@ -21,7 +21,5 @@ export default theme => ({
   paper: {
     width: 'fit-content',
     padding: theme.spacing.unit,
-    backgroundColor: theme.palette.primary.main,
-    color: theme.palette.primary.contrastText,
   },
 })

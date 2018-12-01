@@ -26,7 +26,6 @@ const giftES = ({ classes }) => (
       <InfoSection
         wrapperClassName={classes.giftSection}
         title="¿Os podemos ayudar?"
-        subtitle="Dame argoooooooooo!"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -35,10 +34,13 @@ const giftES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" color="inherit">
-          Contar con tu presencia el próximo fin de semana del 13 de abril es lo
-          que más ilusión nos hace. Pero si nos quieres ayudar en esta nueva
-          etapa, disponemos de la siguiente cuenta bancaria. ¡Muchísimas
-          gracias!
+          Comptar amb la teva presència el pròxim cap de setmana del 13 d'abril és el que ens fa més il·lusió.
+        </Typography>
+        <Typography variant="body2" color="inherit">
+          Però si vols ajudar-nos en aquesta nova etapa, disposem del següent compte bancari. Moltíssimes gràcies!
+        </Typography>
+        <Typography variant="body2" color="inherit">
+          ES09 2100 1568 6102 0039 8335
         </Typography>
       </InfoSection>
     )}

@@ -25,8 +25,7 @@ const giftES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.giftSection}
-        title="¿Os podemos ayudar?"
-        subtitle="Dame argoooooooooo!"
+        title="Can we chip in?"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -35,10 +34,13 @@ const giftES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" color="inherit">
-          Contar con tu presencia el próximo fin de semana del 13 de abril es lo
-          que más ilusión nos hace. Pero si nos quieres ayudar en esta nueva
-          etapa, disponemos de la siguiente cuenta bancaria. ¡Muchísimas
-          gracias!
+          You are probably thinking a present you’ll need to bring. Just your presence will mean everything!
+        </Typography>
+        <Typography variant="body2" color="inherit">
+          But if you want, there is a little something to which we aspire. With special travel plans to follow our day, a small gift of currency would help us on our way. No need to overboard or rob a bank, whatever your gift will be received with thanks.
+        </Typography>
+        <Typography variant="body2" color="inherit">
+          ES09 2100 1568 6102 0039 8335
         </Typography>
       </InfoSection>
     )}

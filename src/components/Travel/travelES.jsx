@@ -29,8 +29,8 @@ const travelES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.travelSection}
-        title="¿Como llegamos a Ligüerre?"
-        subtitle="No hay autopistas ni aeropuertos cerca. ¡Eso es lo xulo!"
+        title="¿Cómo llegamos a Ligüerre?"
+        subtitle="No hay autopistas ni aeropuertos cerca. ¡Eso es lo chulo!"
       >
         <div className={classes.mapWrapper}>
           <Paper elevation={4} square>

@@ -2,7 +2,6 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography'
 import withStyles from '@material-ui/core/styles/withStyles'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
 import InfoSection from '../InfoSection'
 import styles from './styles'
@@ -25,12 +24,12 @@ const contactES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.rsvpSection}
-        title="¿Tienes alguna pregunta?"
-        subtitle="No dudes en contactarnos"
+        title="Tens algun dubte?"
+        subtitle="No dubtis en contactar-nos"
       >
         <Typography variant="body2" color="inherit">
-          Ya nos conoceis, si teneis alguna duda podeis: preguntar en persona,
-          llamarnos, escribir correos, whatsapp, instagram, etc.
+          Ja ens coneixeu, si teniu algun dubte podeu: preguntar en persona,
+          trucar-nos, escriure correus, whatsapp, instagram, etc. 😊
         </Typography>
       </InfoSection>
     )}

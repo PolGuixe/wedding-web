@@ -29,8 +29,8 @@ const travelES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.travelSection}
-        title="¿Como llegamos a Ligüerre?"
-        subtitle="No hay autopistas ni aeropuertos cerca. ¡Eso es lo xulo!"
+        title="Com arribem a Ligüerre?"
+        subtitle="No hi ha autopistes ni aeroports aprop. Aixó és lo xulo!"
       >
         <div className={classes.mapWrapper}>
           <Paper elevation={4} square>
@@ -55,31 +55,25 @@ const travelES = ({ classes }) => (
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes de Aragón, Cataluña o incluso Madrid, la forma más
-                  fácil de llegar es en coche.
+                  Si vens d’Aragó, Catalunya o Madrid, la forma més fàcil d’arribar-hi és en cotxe.
                 </Typography>
                 <Typography paragraph>
-                  Sigue la A22 hasta Barbastro, y luego continúa hacia el norte,
-                  dirección Bielsa / FRANCIA.
+                  Pren l’A22 fins a Barbastre, i després segueix cap al nord, direcció Bielsa / FRANÇA.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Avión</Typography>
+              <Typography variant="subheading">Avió</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes de fuera de la península, la forma más fácil de
-                  llegar es volar hasta Barcelona. A veces, también hay vuelos a
-                  los aeropuertos de Zaragoza y Lérida desde Londres, París y
-                  Mallorca.
+                  Si vens de fora de la península, la forma més fàcil d’arribar-hi és volar fins a Barcelona. A vegades, també hi ha vols fins a Saragossa o Lleida des de Londres, París o Mallorca.
                 </Typography>
                 <Typography paragraph>
-                  En el aeropuerto puedes alquilar un coche, o contáctanos si
-                  quieres compartir coche con otros invitados.
+                  A l’aeroport pots llogar un cotxe, o contacta’ns si prefereixes compartir cotxe amb altres convidats.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
@@ -91,12 +85,10 @@ const travelES = ({ classes }) => (
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes desde Madrid u otra ciudad conectada con AVE / tren,
-                  puedes ir en tren hasta Zaragoza, Lérida o Huesca.
+                  Si vens des de Madrid o una altra ciutat connectada amb l’AVE / tren, pots anar amb tren fins a Saragossa, Lleida o Osca.
                 </Typography>
                 <Typography paragraph>
-                  Ahí puedes alquilar un coche o contáctanos si quieres
-                  compartir coche con otros invitados.
+                  Allà pots llogar un cotxe, o contacta’ns si prefereixes compartir cotxe amb altres convidats.
                 </Typography>
               </div>
             </ExpansionPanelDetails>

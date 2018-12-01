@@ -26,7 +26,7 @@ const rsvpES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.rsvpSection}
-        title="¡Nos encantaria que vinieses!"
+        title="¡Nos casamos y nos encantaría que vinieses!"
         subtitle="Solo tienes que responder un corto formulario "
       >
         <div className={classes.introImgWrapper}>

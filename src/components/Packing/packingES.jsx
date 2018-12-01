@@ -25,8 +25,8 @@ const packingES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.packingSection}
-        title="¿Que tengo que llevar?"
-        subtitle="¿Muchas ganas de pasarlo bien!"
+        title="¿Qué tengo que llevar?"
+        subtitle="¡Muchas ganas de pasarlo bien!"
       >
         <div className={classes.introImgWrapper}>
           <Img

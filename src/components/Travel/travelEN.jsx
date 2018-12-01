@@ -29,8 +29,8 @@ const travelES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.travelSection}
-        title="¿Como llegamos a Ligüerre?"
-        subtitle="No hay autopistas ni aeropuertos cerca. ¡Eso es lo xulo!"
+        title="How do we get to Ligüerre?"
+        subtitle="There are no highways or airports nearby. That's what's fun about it!"
       >
         <div className={classes.mapWrapper}>
           <Paper elevation={4} square>
@@ -50,53 +50,45 @@ const travelES = ({ classes }) => (
         <div className={classes.daySection}>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Coche</Typography>
+              <Typography variant="subheading">Car</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes de Aragón, Cataluña o incluso Madrid, la forma más
-                  fácil de llegar es en coche.
+                  If you are coming from Aragon, Catalunya or even Madrid, the easiest way to get there is by car.
                 </Typography>
                 <Typography paragraph>
-                  Sigue la A22 hasta Barbastro, y luego continúa hacia el norte,
-                  dirección Bielsa / FRANCIA.
+                  Follow A22 up to Barbastro, and then continue north, direction Bielsa / FRANCIA.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Avión</Typography>
+              <Typography variant="subheading">Plane</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes de fuera de la península, la forma más fácil de
-                  llegar es volar hasta Barcelona. A veces, también hay vuelos a
-                  los aeropuertos de Zaragoza y Lérida desde Londres, París y
-                  Mallorca.
+                  If you are coming from abroad, the easiest way to get there is to fly to Barcelona - El Prat airport. Sometimes, there are flights to Zaragoza airport or Lleida airport from London, Paris and Majorca.
                 </Typography>
                 <Typography paragraph>
-                  En el aeropuerto puedes alquilar un coche, o contáctanos si
-                  quieres compartir coche con otros invitados.
+                  There you can rent a car or contact us for car sharing options with other guests.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Tren</Typography>
+              <Typography variant="subheading">Train</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes desde Madrid u otra ciudad conectada con AVE / tren,
-                  puedes ir en tren hasta Zaragoza, Lérida o Huesca.
+                  If you are coming from Madrid or other Spanish cities connected by train / AVE, you can take the train up to Zaragoza, Lleida or Huesca.
                 </Typography>
                 <Typography paragraph>
-                  Ahí puedes alquilar un coche o contáctanos si quieres
-                  compartir coche con otros invitados.
+                  There you can rent a car or contact us for car sharing options with other guests.
                 </Typography>
               </div>
             </ExpansionPanelDetails>

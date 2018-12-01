@@ -25,8 +25,8 @@ const packingES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.packingSection}
-        title="¿Que tengo que llevar?"
-        subtitle="¿Muchas ganas de pasarlo bien!"
+        title="What do I need to pack?"
+        subtitle="Just be ready to have fun!"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -35,22 +35,14 @@ const packingES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" paragraph color="inherit">
-          No queremos hacer una lista detallada de qué poner en la maleta, pero
-          sí daros información útil que os puede ayudar. Si aún así tenéis
-          preguntas, ¡no dudéis en contactarnos!
-        </Typography>
-
-        <Typography variant="body2" paragraph color="inherit">
-          La ceremonia del sábado será formal / semiformal. Para el resto del
-          fin de semana, traed ropa y calzado casual y cómodos. Y lo más
-          importante, ¡muchas ganas de pasarlo genial! Recordad también que
-          Ligüerre de Cinca está en el Pirineo, la temperatura en abril es
-          fresca - suele estar entre 5ºC y 18ºC -, y es posible que llueva en
-          algún momento durante el fin de semana.
+          We don’t want to make a detailed list of everything you need to pack, but we want to give you information that will help. If after reading this you still have questions, please, contact us!
         </Typography>
         <Typography variant="body2" paragraph color="inherit">
-          Para las chicas, habrá servicio de peluquería el sábado por la mañana.
-          Contáctanos si estás interesada.
+          Saturday ceremony will be formal / semiformal. For the rest of the weekend, pack casual and comfy clothes and shoes. And most importantly, be ready to have fun when you arrive!
+          Remember that Ligüerre de Cinca is in the Pyrenees, and temperature in April is cool - it’s usually between 5ºC and 18ºC - and it may rain at some point during the weekend.
+        </Typography>
+        <Typography variant="body2" paragraph color="inherit">
+          For ladies, we will organise hairdresser’s service on Saturday morning. Let us know if you are interested.
         </Typography>
       </InfoSection>
     )}

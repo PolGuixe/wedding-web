@@ -36,12 +36,13 @@ const rsvpES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" color="inherit">
-          Si us plau, per a facilitar-nos l’organització, ompli aquest breu formulari abans del 28 de febrer. Gràcies!
+          Si us plau, per a facilitar-nos l’organització, ompli aquest breu
+          formulari abans del 28 de febrer. Gràcies!
         </Typography>
         <div className={classes.buttonWrapper}>
           <Button
-            variant="raised"
-            color="primary"
+            variant="outlined"
+            color="secondary"
             className={classes.button}
             href="https://goo.gl/forms/x5CCVpqY8byJHoDP2"
           >

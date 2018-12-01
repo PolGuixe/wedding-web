@@ -25,7 +25,7 @@ const giftES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.giftSection}
-        title="¿Os podemos ayudar?"
+        title="Com us podems ajudar?"
       >
         <div className={classes.introImgWrapper}>
           <Img

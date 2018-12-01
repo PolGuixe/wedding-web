@@ -27,7 +27,7 @@ const accommodationES = ({ classes }) => (
       <InfoSection
         wrapperClassName={classes.accommodationSection}
         title="¿Dónde dormiremos?"
-        subtitle="¡No hace tocar el coche!"
+        subtitle="¡No hace falta tocar el coche!"
       >
         <div className={classes.introImgWrapper}>
           <Img

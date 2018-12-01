@@ -2,8 +2,8 @@ export default theme => ({
   introImgWrapper: {
     display: 'flex',
     justifyContent: 'center',
-    marginTop: theme.spacing.unit,
-    marginBottom: theme.spacing.unit,
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
     width: '100%',
   },
   introImg: {

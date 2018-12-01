@@ -49,6 +49,13 @@ const rsvpES = ({ classes }) => (
             ¡Esto no me lo pierdo!
           </Button>
         </div>
+        <Typography variant="display1" color="primary" align="center">
+          #laura
+            <span role="img" aria-label="love">
+            ❤️
+            </span>
+          pol
+          </Typography>
       </InfoSection>
     )}
   />

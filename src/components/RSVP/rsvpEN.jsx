@@ -49,6 +49,13 @@ const rsvpES = ({ classes }) => (
             RSVP
           </Button>
         </div>
+        <Typography variant="display1" color="inherit" align="center">
+          #laura
+          <span role="img" aria-label="love">
+            ❤️
+          </span>
+          pol
+        </Typography>
       </InfoSection>
     )}
   />

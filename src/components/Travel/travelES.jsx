@@ -50,7 +50,12 @@ const travelES = ({ classes }) => (
         <div className={classes.daySection}>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Coche</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="coche">
+                  🚘
+                </span>
+                Coche
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
@@ -67,7 +72,12 @@ const travelES = ({ classes }) => (
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Avión</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="`avión">
+                  ✈️
+                </span>
+                Avión
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
@@ -86,7 +96,12 @@ const travelES = ({ classes }) => (
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Tren</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="tren">
+                  🚆
+                </span>
+                Tren
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>

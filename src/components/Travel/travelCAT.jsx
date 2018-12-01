@@ -50,45 +50,68 @@ const travelES = ({ classes }) => (
         <div className={classes.daySection}>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Coche</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="cotxe">
+                  🚘
+                </span>
+                Coche
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vens d’Aragó, Catalunya o Madrid, la forma més fàcil d’arribar-hi és en cotxe.
+                  Si vens d’Aragó, Catalunya o Madrid, la forma més fàcil
+                  d’arribar-hi és en cotxe.
                 </Typography>
                 <Typography paragraph>
-                  Pren l’A22 fins a Barbastre, i després segueix cap al nord, direcció Bielsa / FRANÇA.
+                  Pren l’A22 fins a Barbastre, i després segueix cap al nord,
+                  direcció Bielsa / FRANÇA.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Avió</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="`avió">
+                  ✈️
+                </span>
+                Avió
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vens de fora de la península, la forma més fàcil d’arribar-hi és volar fins a Barcelona. A vegades, també hi ha vols fins a Saragossa o Lleida des de Londres, París o Mallorca.
+                  Si vens de fora de la península, la forma més fàcil
+                  d’arribar-hi és volar fins a Barcelona. A vegades, també hi ha
+                  vols fins a Saragossa o Lleida des de Londres, París o
+                  Mallorca.
                 </Typography>
                 <Typography paragraph>
-                  A l’aeroport pots llogar un cotxe, o contacta’ns si prefereixes compartir cotxe amb altres convidats.
+                  A l’aeroport pots llogar un cotxe, o contacta’ns si
+                  prefereixes compartir cotxe amb altres convidats.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Tren</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="tren">
+                  🚆
+                </span>
+                Tren
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vens des de Madrid o una altra ciutat connectada amb l’AVE / tren, pots anar amb tren fins a Saragossa, Lleida o Osca.
+                  Si vens des de Madrid o una altra ciutat connectada amb l’AVE
+                  / tren, pots anar amb tren fins a Saragossa, Lleida o Osca.
                 </Typography>
                 <Typography paragraph>
-                  Allà pots llogar un cotxe, o contacta’ns si prefereixes compartir cotxe amb altres convidats.
+                  Allà pots llogar un cotxe, o contacta’ns si prefereixes
+                  compartir cotxe amb altres convidats.
                 </Typography>
               </div>
             </ExpansionPanelDetails>

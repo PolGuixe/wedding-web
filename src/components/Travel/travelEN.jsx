@@ -50,45 +50,69 @@ const travelES = ({ classes }) => (
         <div className={classes.daySection}>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Car</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="car">
+                  🚘
+                </span>
+                Car
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  If you are coming from Aragon, Catalunya or even Madrid, the easiest way to get there is by car.
+                  If you are coming from Aragon, Catalunya or even Madrid, the
+                  easiest way to get there is by car.
                 </Typography>
                 <Typography paragraph>
-                  Follow A22 up to Barbastro, and then continue north, direction Bielsa / FRANCIA.
+                  Follow A22 up to Barbastro, and then continue north, direction
+                  Bielsa / FRANCIA.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Plane</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="plane">
+                  ✈️
+                </span>
+                Plane
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  If you are coming from abroad, the easiest way to get there is to fly to Barcelona - El Prat airport. Sometimes, there are flights to Zaragoza airport or Lleida airport from London, Paris and Majorca.
+                  If you are coming from abroad, the easiest way to get there is
+                  to fly to Barcelona - El Prat airport. Sometimes, there are
+                  flights to Zaragoza airport or Lleida airport from London,
+                  Paris and Majorca.
                 </Typography>
                 <Typography paragraph>
-                  There you can rent a car or contact us for car sharing options with other guests.
+                  There you can rent a car or contact us for car sharing options
+                  with other guests.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Train</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="train">
+                  🚆
+                </span>
+                Train
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  If you are coming from Madrid or other Spanish cities connected by train / AVE, you can take the train up to Zaragoza, Lleida or Huesca.
+                  If you are coming from Madrid or other Spanish cities
+                  connected by train / AVE, you can take the train up to
+                  Zaragoza, Lleida or Huesca.
                 </Typography>
                 <Typography paragraph>
-                  There you can rent a car or contact us for car sharing options with other guests.
+                  There you can rent a car or contact us for car sharing options
+                  with other guests.
                 </Typography>
               </div>
             </ExpansionPanelDetails>

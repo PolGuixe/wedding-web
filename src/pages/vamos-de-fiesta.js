@@ -24,12 +24,12 @@ class VamosDeFiesta extends Component {
     return (
       <Layout>
         <div className={classes.moreInfoPageChildren}>
+          <RSVP />
           <Agenda />
           <Accommodation />
           <Travel />
           <Packing />
           <Gift />
-          <RSVP />
           <Contact />
         </div>
       </Layout>

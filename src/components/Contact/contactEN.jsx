@@ -28,8 +28,11 @@ const contactES = ({ classes }) => (
         subtitle="Don't hesitate to contact us"
       >
         <Typography variant="body2" color="inherit">
-          You know us already, if you have any questions, you can: ask when you see us,
-          call us, write us an e-mail, whatsapp, instagram, etc. 😊
+          You know us already, if you have any questions, you can: ask when you
+          see us, call us, write us an e-mail, whatsapp, instagram, etc.{' '}
+          <span role="img" aria-label="happy face">
+            😊
+          </span>
         </Typography>
       </InfoSection>
     )}

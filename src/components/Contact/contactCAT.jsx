@@ -29,7 +29,10 @@ const contactES = ({ classes }) => (
       >
         <Typography variant="body2" color="inherit">
           Ja ens coneixeu, si teniu algun dubte podeu: preguntar en persona,
-          trucar-nos, escriure correus, whatsapp, instagram, etc. 😊
+          trucar-nos, escriure correus, whatsapp, instagram, etc.{' '}
+          <span role="img" aria-label="happy face">
+            😊
+          </span>
         </Typography>
       </InfoSection>
     )}

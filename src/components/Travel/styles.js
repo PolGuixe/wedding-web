@@ -21,8 +21,7 @@ export default theme => ({
     marginTop: theme.spacing.unit,
   },
   map: {
-    width: '600px',
-    maxWidth: '100%',
-    height: '300px',
+    width: '100%',
+    height: '350px',
   },
 })

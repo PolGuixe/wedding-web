@@ -26,8 +26,8 @@ const accommodationES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.accommodationSection}
-        title="¿Dónde dormiremos?"
-        subtitle="¡No hace tocar el coche!"
+        title="On dormirem?"
+        subtitle="No fa falta agafar el cotxe!"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -36,22 +36,18 @@ const accommodationES = ({ classes }) => (
           />
         </div>
         <Typography color="inherit" variant="body2" paragraph>
-          Tanto si llegas el viernes como si llegas el sábado, puedes quedarte a
-          dormir en Ligüerre de Cinca. Todas las casas antiguas del pueblo se
-          han transformado en hoteles y apartamentos con mucho encanto, y pueden
-          alojar a todos nuestros invitados.
+          Tant si arribes divendres com si arribes dissabte, et pots quedar a dormir a Ligüerre de Cinca. Totes les cases antigues del poble han estat transformades en hotels i apartaments amb molt encant, i poden allotjar a tots els nostres convidats. 
         </Typography>
         <div className={classes.paperWrapper}>
           <Paper className={classes.paper}>
             <Typography variant="body1" align="center" color="inherit">
-              El precio del alojamiento es 35€ / persona / noche.
+            El preu del allotjament és 35€ / persona / nit.
             </Typography>
           </Paper>
         </div>
         <Typography color="inherit" variant="body2" paragraph>
-          Unas pocas semanas antes de la boda nos pondremos en contacto con
-          vosotros para daros más información sobre cómo registrarse en los
-          hoteles / apartamentos.
+        <br></br>
+          Unes poques setmanes abans de la boda ens posarem en contacte amb vosaltres per a donar-vos més informació sobre com registrar-se als hotels / apartaments. Però no et preocupis, hi ha joc per tot!
         </Typography>
       </InfoSection>
     )}

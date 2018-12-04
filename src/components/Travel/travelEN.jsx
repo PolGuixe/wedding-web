@@ -29,74 +29,89 @@ const travelES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.travelSection}
-        title="¿Como llegamos a Ligüerre?"
-        subtitle="No hay autopistas ni aeropuertos cerca. ¡Eso es lo xulo!"
+        title="How do we get to Ligüerre?"
+        subtitle="There are no highways or airports nearby. That's what's fun about it!"
       >
-        <div className={classes.mapWrapper}>
-          <Paper elevation={4} square>
-            <div className={classes.map}>
-              <iframe
-                title="map"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11807.508750724744!2d0.1967616!3d42.2811449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c248def99dbf3c1!2sLig%C3%BCerre+Resort!5e0!3m2!1sen!2ses!4v1543145346934"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                style={{ border: '0' }}
-                allowFullScreen
-              />
-            </div>
-          </Paper>
-        </div>
+        <Paper elevation={4} square className={classes.mapWrapper}>
+          <div className={classes.map}>
+            <iframe
+              title="map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11807.508750724744!2d0.1967616!3d42.2811449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c248def99dbf3c1!2sLig%C3%BCerre+Resort!5e0!3m2!1sen!2ses!4v1543145346934"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              style={{ border: '0' }}
+              allowFullScreen
+            />
+          </div>
+        </Paper>
+
         <div className={classes.daySection}>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Coche</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="car">
+                  🚘
+                </span>
+                Car
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes de Aragón, Cataluña o incluso Madrid, la forma más
-                  fácil de llegar es en coche.
+                  If you are coming from Aragon, Catalunya or even Madrid, the
+                  easiest way to get there is by car.
                 </Typography>
                 <Typography paragraph>
-                  Sigue la A22 hasta Barbastro, y luego continúa hacia el norte,
-                  dirección Bielsa / FRANCIA.
+                  Follow A22 up to Barbastro, and then continue north, direction
+                  Bielsa / FRANCIA.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Avión</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="plane">
+                  ✈️
+                </span>
+                Plane
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes de fuera de la península, la forma más fácil de
-                  llegar es volar hasta Barcelona. A veces, también hay vuelos a
-                  los aeropuertos de Zaragoza y Lérida desde Londres, París y
-                  Mallorca.
+                  If you are coming from abroad, the easiest way to get there is
+                  to fly to Barcelona - El Prat airport. Sometimes, there are
+                  flights to Zaragoza airport or Lleida airport from London,
+                  Paris and Majorca.
                 </Typography>
                 <Typography paragraph>
-                  En el aeropuerto puedes alquilar un coche, o contáctanos si
-                  quieres compartir coche con otros invitados.
+                  There you can rent a car or contact us for car sharing options
+                  with other guests.
                 </Typography>
               </div>
             </ExpansionPanelDetails>
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Tren</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="train">
+                  🚆
+                </span>
+                Train
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
                 <Typography paragraph>
-                  Si vienes desde Madrid u otra ciudad conectada con AVE / tren,
-                  puedes ir en tren hasta Zaragoza, Lérida o Huesca.
+                  If you are coming from Madrid or other Spanish cities
+                  connected by train / AVE, you can take the train up to
+                  Zaragoza, Lleida or Huesca.
                 </Typography>
                 <Typography paragraph>
-                  Ahí puedes alquilar un coche o contáctanos si quieres
-                  compartir coche con otros invitados.
+                  There you can rent a car or contact us for car sharing options
+                  with other guests.
                 </Typography>
               </div>
             </ExpansionPanelDetails>

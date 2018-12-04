@@ -27,7 +27,7 @@ const accommodationES = ({ classes }) => (
       <InfoSection
         wrapperClassName={classes.accommodationSection}
         title="¿Dónde dormiremos?"
-        subtitle="¡No hace tocar el coche!"
+        subtitle="¡No hace falta tocar el coche!"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -49,6 +49,7 @@ const accommodationES = ({ classes }) => (
           </Paper>
         </div>
         <Typography color="inherit" variant="body2" paragraph>
+          <br></br>
           Unas pocas semanas antes de la boda nos pondremos en contacto con
           vosotros para daros más información sobre cómo registrarse en los
           hoteles / apartamentos.

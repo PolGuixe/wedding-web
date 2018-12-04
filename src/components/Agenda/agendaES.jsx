@@ -87,12 +87,14 @@ const agendaES = ({ classes }) => (
         <Typography color="inherit" variant="body2" paragraph>
           Ligüerre de Cinca es un sitio privilegiado. Es un pequeño pueblo junto
           al embalse de El Grado, rodeado de naturaleza, montañas y viñedos, y
-          que puede acogernos a todos. <br />
-          Elegimos celebrar nuestra boda en Ligüerre porque nos permite pasar el
-          fin de semana entero con nuestra familia y amigos. <br />
+          que puede acogernos a todos. Elegimos celebrar nuestra boda en Ligüerre porque nos permite pasar el
+          fin de semana entero con nuestra familia y amigos.
+        </Typography>
+        <Typography color="inherit" variant="body2" paragraph>
           La ceremonia tendrá lugar el sábado, pero podéis elegir cuándo venir a
           Ligüerre (cuanto antes, ¡mejor!).
-          <br />
+        </Typography>
+        <Typography color="inherit" variant="body2" paragraph>
           Abajo veréis el detalle de lo que hemos organizado para vosotros.
         </Typography>
         <Typography color="inherit" variant="headline">

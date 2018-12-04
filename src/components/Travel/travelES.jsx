@@ -29,28 +29,31 @@ const travelES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.travelSection}
-        title="¿Como llegamos a Ligüerre?"
-        subtitle="No hay autopistas ni aeropuertos cerca. ¡Eso es lo xulo!"
+        title="¿Cómo llegamos a Ligüerre?"
+        subtitle="No hay autopistas ni aeropuertos cerca. ¡Eso es lo chulo!"
       >
-        <div className={classes.mapWrapper}>
-          <Paper elevation={4} square>
-            <div className={classes.map}>
-              <iframe
-                title="map"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11807.508750724744!2d0.1967616!3d42.2811449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c248def99dbf3c1!2sLig%C3%BCerre+Resort!5e0!3m2!1sen!2ses!4v1543145346934"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                style={{ border: '0' }}
-                allowFullScreen
-              />
-            </div>
-          </Paper>
-        </div>
+        <Paper elevation={4} square className={classes.mapWrapper}>
+          <div className={classes.map}>
+            <iframe
+              title="map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11807.508750724744!2d0.1967616!3d42.2811449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c248def99dbf3c1!2sLig%C3%BCerre+Resort!5e0!3m2!1sen!2ses!4v1543145346934"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              style={{ border: '0' }}
+              allowFullScreen
+            />
+          </div>
+        </Paper>
         <div className={classes.daySection}>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Coche</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="coche">
+                  🚘
+                </span>
+                Coche
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
@@ -67,7 +70,12 @@ const travelES = ({ classes }) => (
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Avión</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="`avión">
+                  ✈️
+                </span>
+                Avión
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>
@@ -86,7 +94,12 @@ const travelES = ({ classes }) => (
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Tren</Typography>
+              <Typography variant="subheading">
+                <span role="img" aria-label="tren">
+                  🚆
+                </span>
+                Tren
+              </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <div className={classes.expansionDetailsText}>

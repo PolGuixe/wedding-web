@@ -26,7 +26,7 @@ const rsvpES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.rsvpSection}
-        title="¡Nos encantaria que vinieses!"
+        title="¡Nos casamos y nos encantaría que vinieses!"
         subtitle="Solo tienes que responder un corto formulario "
       >
         <div className={classes.introImgWrapper}>
@@ -41,14 +41,21 @@ const rsvpES = ({ classes }) => (
         </Typography>
         <div className={classes.buttonWrapper}>
           <Button
-            variant="raised"
-            color="primary"
+            variant="outlined"
+            color="secondary"
             className={classes.button}
             href="https://goo.gl/forms/x5CCVpqY8byJHoDP2"
           >
             ¡Esto no me lo pierdo!
           </Button>
         </div>
+        <Typography variant="display1" color="primary" align="center">
+          #laura
+            <span role="img" aria-label="love">
+            ❤️
+            </span>
+          pol
+          </Typography>
       </InfoSection>
     )}
   />

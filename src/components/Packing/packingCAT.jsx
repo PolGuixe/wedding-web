@@ -25,8 +25,8 @@ const packingES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.packingSection}
-        title="¿Que tengo que llevar?"
-        subtitle="¿Muchas ganas de pasarlo bien!"
+        title="Que ens hem d'emportar?"
+        subtitle="Molt ganes de passar-ho bé!"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -35,22 +35,14 @@ const packingES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" paragraph color="inherit">
-          No queremos hacer una lista detallada de qué poner en la maleta, pero
-          sí daros información útil que os puede ayudar. Si aún así tenéis
-          preguntas, ¡no dudéis en contactarnos!
-        </Typography>
-
-        <Typography variant="body2" paragraph color="inherit">
-          La ceremonia del sábado será formal / semiformal. Para el resto del
-          fin de semana, traed ropa y calzado casual y cómodos. Y lo más
-          importante, ¡muchas ganas de pasarlo genial! Recordad también que
-          Ligüerre de Cinca está en el Pirineo, la temperatura en abril es
-          fresca - suele estar entre 5ºC y 18ºC -, y es posible que llueva en
-          algún momento durante el fin de semana.
+          No volem fer una llista detallada de què posar a la maleta, només donar-vos informació útil que pot ajudar-vos. Si tot i això teniu qüestions, no dubteu en contactar-nos!
         </Typography>
         <Typography variant="body2" paragraph color="inherit">
-          Para las chicas, habrá servicio de peluquería el sábado por la mañana.
-          Contáctanos si estás interesada.
+          La cerimònia de dissabte serà formal / semiformal. Per la resta del cap de setmana, traieu roba i calçat casual i còmodes. I el més important, moltes ganes de passar-ho bé!
+          Recordeu també que Ligüerre de Cinca es troba als Pirineus, la temperatura en abril és fresca - sou estar entre 5ºC i 18ºC -, i és possible que plogui en durant el cap de setmana.
+        </Typography>
+        <Typography variant="body2" paragraph color="inherit">
+          Per a les noies, hi haurà servei de perruqueria dissabte al matí. Contacta’ns si estàs interessada.
         </Typography>
       </InfoSection>
     )}

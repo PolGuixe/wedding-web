@@ -26,8 +26,8 @@ const rsvpES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.rsvpSection}
-        title="¡Nos encantaria que vinieses!"
-        subtitle="Solo tienes que responder un corto formulario "
+        title="Ens casem i ens agradaria compartir aquest moment amb vosaltres!"
+        subtitle="Només has de respondre un breu formulari"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -36,19 +36,26 @@ const rsvpES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" color="inherit">
-          Por favor, para facilitarnos la organización, rellena este breve
-          formulario antes del 28 de febrero. ¡Gracias!
+          Si us plau, per a facilitar-nos l’organització, ompli aquest breu
+          formulari abans del 28 de febrer. Gràcies!
         </Typography>
         <div className={classes.buttonWrapper}>
           <Button
-            variant="raised"
-            color="primary"
+            variant="outlined"
+            color="secondary"
             className={classes.button}
             href="https://goo.gl/forms/x5CCVpqY8byJHoDP2"
           >
-            ¡Esto no me lo pierdo!
+            Això no m’ho perdo!
           </Button>
         </div>
+        <Typography variant="display1" color="inherit" align="center">
+          #laura
+          <span role="img" aria-label="love">
+            ❤️
+          </span>
+          pol
+        </Typography>
       </InfoSection>
     )}
   />

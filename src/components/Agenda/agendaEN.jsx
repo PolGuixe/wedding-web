@@ -75,8 +75,8 @@ const agendaES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.agendaSection}
-        title="¿Cuándo tenemos que llegar?"
-        subtitle="¡Un fin de semana juntos!"
+        title="When do we have to get there?"
+        subtitle="A full weekend all together!"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -85,26 +85,24 @@ const agendaES = ({ classes }) => (
           />
         </div>
         <Typography color="inherit" variant="body2" paragraph>
-          Ligüerre de Cinca es un sitio privilegiado. Es un pequeño pueblo junto
-          al embalse de El Grado, rodeado de naturaleza, montañas y viñedos, y
-          que puede acogernos a todos. <br />
-          Elegimos celebrar nuestra boda en Ligüerre porque nos permite pasar el
-          fin de semana entero con nuestra familia y amigos. <br />
-          La ceremonia tendrá lugar el sábado, pero podéis elegir cuándo venir a
-          Ligüerre (cuanto antes, ¡mejor!).
-          <br />
-          Abajo veréis el detalle de lo que hemos organizado para vosotros.
+          Ligüerre de Cinca is a privileged place. It is a small village by El Grado reservoir, surrounded by nature, mountains and vineyards, which can host all of us. We chose to celebrate our wedding in Ligüerre because it allowed us to spend a whole weekend with our family and friends.
+        </Typography>
+        <Typography color="inherit" variant="body2" paragraph>
+          The wedding ceremony will take place on Saturday, and you are free to choose when you want to come to Ligüerre (the sooner, the better!).
+        </Typography>
+        <Typography color="inherit" variant="body2" paragraph>
+          Below you will see the detail of what we have organized for you.
         </Typography>
         <Typography color="inherit" variant="headline">
-          ¿Y cuál es el plan del fin de semana?
+          And what’s the plan for the weekend?
         </Typography>
         <div className={classes.daySection}>
           <Typography color="inherit" variant="title">
-            Viernes
+            Friday
           </Typography>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Registro / Check-In</Typography>
+              <Typography variant="subheading">Check-In</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <Grid container>
@@ -119,13 +117,10 @@ const agendaES = ({ classes }) => (
                   className={classes.expansionDetailsText}
                 >
                   <Typography paragraph>
-                    Todos los invitados deberán registrarse online unas semanas
-                    antes del Gran Día. Cuando lleguéis a Ligüerre de Cinca,
-                    sólo tendréis que recoger vuestras llaves ¡y a disfrutar!
+                    All guests will register online a few weeks before the Big Day. When you arrive at Ligüerre de Cinca you will just need to pick up your keys and enjoy!
                   </Typography>
                   <Typography paragraph>
-                    No te preocupes, os daremos más información cuando llegue el
-                    momento.
+                    Don't worry, we will give you detailed information in due date.
                   </Typography>
                 </Grid>
               </Grid>
@@ -134,7 +129,7 @@ const agendaES = ({ classes }) => (
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
               <Typography variant="subheading">
-                Barbacoa y fiesta de bienvenida
+                BBQ & Warm-Up Party
               </Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails className={classes.expansionDetails}>
@@ -150,11 +145,8 @@ const agendaES = ({ classes }) => (
                   className={classes.expansionDetailsText}
                 >
                   <Typography paragraph>
-                    Hemos planeado una barbacoa para dar la bienvenida a
-                    nuestros invitados, ponernos al día, y dar comienzo a la
-                    fiesta. La barbacoa tendrá lugar junto al local social y
-                    empezará a las
-                    <strong> 19:30</strong> el viernes.
+                  We have planned a BBQ to welcome our guests, catch up with one another, and get the party started. The BBQ will take place next to the social club. It will start at
+                    <strong> 19:30</strong> on Friday.
                   </Typography>
                 </Grid>
               </Grid>
@@ -163,11 +155,11 @@ const agendaES = ({ classes }) => (
         </div>
         <div className={classes.daySection}>
           <Typography color="inherit" variant="title">
-            Sábado
+            Saturday
           </Typography>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Ceremonia</Typography>
+              <Typography variant="subheading">Wedding Ceremony</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails className={classes.expansionDetails}>
               <Grid container>
@@ -182,13 +174,10 @@ const agendaES = ({ classes }) => (
                   className={classes.expansionDetailsText}
                 >
                   <Typography paragraph>
-                    La ceremonia civil tendrá lugar el sábado a las 13:00 en la
-                    Plaza Sebastián (¡si el tiempo nos deja!), que tiene unas
-                    vistas asombrosas al embalse de El Grado.
+                    The civil ceremony will take place at 13:00 on Saturday in Sebastián square (time permitting!), which has amazing views at El Grado reservoir.
                   </Typography>
                   <Typography paragraph>
-                    Al terminar, tomaremos algunas fotos antes de pasar a la
-                    recepción.
+                    We will then take some photos and then will move on to the reception.
                   </Typography>
                 </Grid>
               </Grid>
@@ -196,7 +185,7 @@ const agendaES = ({ classes }) => (
           </ExpansionPanel>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Recepción</Typography>
+              <Typography variant="subheading">Wedding Reception</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails className={classes.expansionDetails}>
               <Grid container>
@@ -211,10 +200,7 @@ const agendaES = ({ classes }) => (
                   className={classes.expansionDetailsText}
                 >
                   <Typography paragraph>
-                    Primero, tomaremos unos aperitivos en la Plaza del Mirador
-                    del Entremón. A continuación, iremos a la carpa para
-                    disfrutar de la comida, tarta, vino de la D.O. Somontano, ¡y
-                    bailar toda la noche!
+                    First, we will have some appetizers in Entremón Outlook square. After that, we will move into the tent to enjoy the Wedding Lunch, cake, D.O. Somontano wine, and then party all night long!!
                   </Typography>
                 </Grid>
               </Grid>
@@ -223,11 +209,11 @@ const agendaES = ({ classes }) => (
         </div>
         <div className={classes.daySection}>
           <Typography color="inherit" variant="title">
-            Domingo
+            Sunday
           </Typography>
           <ExpansionPanel>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="subheading">Desayuno</Typography>
+              <Typography variant="subheading">Breakfast</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails className={classes.expansionDetails}>
               <Grid container>
@@ -242,15 +228,10 @@ const agendaES = ({ classes }) => (
                   className={classes.expansionDetailsText}
                 >
                   <Typography paragraph>
-                    El domingo (y también el sábado para quienes lleguen el
-                    viernes), se servirá desayuno continental en la Plaza
-                    Mirador del Entremón de 9:00 a 11:30. Si llueve, se servirá
-                    en el interior del restaurante.
+                    Continental breakfast will be served in Entremón Lookout square (plaza Mirador del Entremón) from 9:00 to 11:30 on Sunday, and also on Saturday for people who arrive on Friday. If it is rainy, breakfast will be served at the restaurant.
                   </Typography>
                   <Typography paragraph>
-                    Será un momento perfecto para recuperar energía, compartir
-                    historias y decir adiós antes de marcharnos de vuelta a
-                    casa.
+                    It will be the perfect time to get energy for the long day ahead, share stories and say goodbye before they head for home.
                   </Typography>
                 </Grid>
               </Grid>

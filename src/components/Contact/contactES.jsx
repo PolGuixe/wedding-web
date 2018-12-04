@@ -2,7 +2,6 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography'
 import withStyles from '@material-ui/core/styles/withStyles'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
 import InfoSection from '../InfoSection'
 import styles from './styles'
@@ -30,7 +29,10 @@ const contactES = ({ classes }) => (
       >
         <Typography variant="body2" color="inherit">
           Ya nos conoceis, si teneis alguna duda podeis: preguntar en persona,
-          llamarnos, escribir correos, whatsapp, instagram, etc.
+          llamarnos, escribir correos, whatsapp, instagram, etc.{' '}
+          <span role="img" aria-label="happy face">
+            😊
+          </span>
         </Typography>
       </InfoSection>
     )}

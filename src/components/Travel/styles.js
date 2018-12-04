@@ -2,8 +2,8 @@ export default theme => ({
   mapWrapper: {
     display: 'flex',
     justifyContent: 'center',
-    marginTop: theme.spacing.unit,
-    marginBottom: theme.spacing.unit,
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
     width: '100%',
   },
   expansionDetailsText: {
@@ -21,8 +21,7 @@ export default theme => ({
     marginTop: theme.spacing.unit,
   },
   map: {
-    width: '600px',
-    maxWidth: '100%',
-    height: '300px',
+    width: '100%',
+    height: '350px',
   },
 })

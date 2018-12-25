@@ -41,7 +41,7 @@ const rsvpES = ({ classes }) => (
         </Typography>
         <div className={classes.buttonWrapper}>
           <Button
-            variant="outlined"
+            variant="raised"
             color="secondary"
             className={classes.button}
             href="https://goo.gl/forms/x5CCVpqY8byJHoDP2"

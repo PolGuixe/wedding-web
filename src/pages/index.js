@@ -63,6 +63,12 @@ const styles = theme => ({
   spacer: {
     height: theme.spacing.unit * 6,
   },
+  rsvpButtonWrapper: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    marginTop: theme.spacing.unit * 4,
+  },
   button: {
     color: theme.palette.primary.contrastText,
     borderColor: theme.palette.primary.contrastText,
@@ -98,6 +104,16 @@ const IndexPage = ({ classes, data }) => (
               We are married!
             </Countdown>
           </Typography>
+          <div className={classes.rsvpButtonWrapper}>
+            <Button
+              variant="raised"
+              color="secondary"
+              className={classes.button}
+              href="https://goo.gl/forms/x5CCVpqY8byJHoDP2"
+            >
+              Yo vengo! / Jo vinc! / I'm coming!
+            </Button>
+          </div>
         </div>
       </Grid>
       <Grid item xs={12} sm={6} className={classes.text}>
@@ -155,7 +171,7 @@ const IndexPage = ({ classes, data }) => (
             }}
           >
             More information
-          </Button>  
+          </Button>
           <div className={classes.spacer} />
           <Typography variant="display1" color="inherit">
             #laura

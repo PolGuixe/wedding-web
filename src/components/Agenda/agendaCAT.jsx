@@ -91,7 +91,7 @@ const agendaES = ({ classes }) => (
           La cerimònia serà el dissabte, però podeu venir a Ligüerre quan vulgueu (com més aviat millor!). <br />
         </Typography>
         <Typography color="inherit" variant="body2" paragraph>
-          A baix véreu el detall d’ho que hem organitzat per vosaltres.
+          A sota veureu en detall la proposta que hem organitzat per vosaltres.
         </Typography>
         <Typography color="inherit" variant="headline">
           I quin és el pla del cap de setmana?
@@ -174,7 +174,7 @@ const agendaES = ({ classes }) => (
                   className={classes.expansionDetailsText}
                 >
                   <Typography paragraph>
-                    La cerimònia civil tindrà lloc el dissabte a les 13:00 en la Plaça Sebastiá (si el temps ho permet!), que té unes vistes impressionants a l’embassament de El Grado.
+                    La cerimònia civil tindrà lloc el dissabte a les 13:00 a la Plaça Sebastià (si el temps ho permet!), que té unes vistes impressionants de l’embassament de El Grado.
                   </Typography>
                   <Typography paragraph>
                     En acabar, farem algunes fotos abans de començar la recepció.

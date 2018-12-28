@@ -26,7 +26,7 @@ const giftES = ({ classes }) => (
     render={data => (
       <InfoSection
         wrapperClassName={classes.giftSection}
-        title="Com us podems ajudar?"
+        title="Com ens podeu ajudar?"
       >
         <div className={classes.introImgWrapper}>
           <Img
@@ -35,7 +35,7 @@ const giftES = ({ classes }) => (
           />
         </div>
         <Typography variant="body2" color="inherit">
-          Comptar amb la teva presència el pròxim cap de setmana del 13 d'abril
+          Comptar amb la vostra presència el pròxim cap de setmana del 13 d'abril
           és el que ens fa més il·lusió.
         </Typography>
         <Typography variant="body2" color="inherit">

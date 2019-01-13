@@ -8,11 +8,13 @@ import Img from 'gatsby-image'
 import InfoSection from '../InfoSection'
 import styles from './styles'
 
-const accommodationES = ({ classes }) => (
+const accommodationES = ({ classes, noPrice=false }) => (
   <StaticQuery
     query={graphql`
       query {
-        accommodationImage: file(relativePath: { eq: "accommodation/accommodation.jpg" }) {
+        accommodationImage: file(
+          relativePath: { eq: "accommodation/accommodation.jpg" }
+        ) {
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.
@@ -41,15 +43,17 @@ const accommodationES = ({ classes }) => (
           han transformado en hoteles y apartamentos con mucho encanto, y pueden
           alojar a todos nuestros invitados.
         </Typography>
-        <div className={classes.paperWrapper}>
-          <Paper className={classes.paper}>
-            <Typography variant="body1" align="center" color="inherit">
-              El precio del alojamiento es 35€ / persona / noche.
-            </Typography>
-          </Paper>
-        </div>
+        {!noPrice ? (
+          <div className={classes.paperWrapper}>
+            <Paper className={classes.paper}>
+              <Typography variant="body1" align="center" color="inherit">
+                El precio del alojamiento es 35€ / persona / noche.
+              </Typography>
+            </Paper>
+          </div>
+        ) : null}
         <Typography color="inherit" variant="body2" paragraph>
-          <br></br>
+          <br />
           Unas pocas semanas antes de la boda nos pondremos en contacto con
           vosotros para daros más información sobre cómo registrarse en los
           hoteles / apartamentos.

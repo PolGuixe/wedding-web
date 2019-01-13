@@ -1,5 +1,7 @@
 export default theme => ({
-  rsvpSection: {
+  rsvpDarkSection: {
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.primary.contrastText,
   },
   introImgWrapper: {
     display: 'flex',

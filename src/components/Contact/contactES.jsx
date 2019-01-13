@@ -2,11 +2,12 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography'
 import withStyles from '@material-ui/core/styles/withStyles'
 import { StaticQuery, graphql } from 'gatsby'
+import classNames from 'classnames'
 
 import InfoSection from '../InfoSection'
 import styles from './styles'
 
-const contactES = ({ classes }) => (
+const contactES = ({ classes, dark }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -23,7 +24,9 @@ const contactES = ({ classes }) => (
     `}
     render={data => (
       <InfoSection
-        wrapperClassName={classes.rsvpSection}
+        wrapperClassName={classNames(classes.rsvpSection, {
+          [classes.rsvpDarkSection]: dark,
+        })}
         title="¿Tienes alguna pregunta?"
         subtitle="No dudes en contactarnos"
       >
